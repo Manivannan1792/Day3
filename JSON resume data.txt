@@ -1,0 +1,52 @@
+var Resume={
+    "BASIC DETAILS": [
+ {
+      "name": "MANIVANNAN.R",
+      "email": "manimba701@gamil.com",
+      "phone": xxxxxxxxxx,
+      "degree": "B.E",
+      "location": {
+        "address": "yyyyyyyyyy",
+        "postalCode": 000000,
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+],
+      
+    "WORK EXPERIENCE": [
+      {
+        "company": "xyz company",
+        "position": "Executive",
+        "startDate": "2020-04-07",
+        "endDate": "till now",
+      },
+    ],
+    "EDUCATION": [
+      {
+        "institution": "XYZ College Of Engineering",
+        "department": "ECE",
+        "studyType": "fulltime",
+        "batch start year": 2010,
+        "batch end year": 2014,
+        "gpa": 6.5,
+      }
+    ],
+    "PROJECT": [
+      {
+        "name": "EEG based brain control mobile robot",
+        "platform": "embedded system",
+     }   
+    ],
+    "LANGUAGES KNOWN": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "AREA OF INTREST": [
+      {
+        "area": "drawing,doing creative things",
+      }
+    ]
+  }
+  console.log(Resume);

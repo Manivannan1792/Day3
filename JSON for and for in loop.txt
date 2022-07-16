@@ -1,0 +1,23 @@
+
+1)For the given JSON iterate for loop.
+
+var arr=[{"name":"XXX","age":"23","year":"2015"},
+{"name":"YYY","age":"24","year":"2016"},
+{"name":"ZZZ","age":"24","year":"2018"}];
+for(var i=0;i<arr.length;i++){
+console.log(arr[i].name+" "+arr[i].age+" "+arr[i].year);
+}
+
+
+For the given JSON iterate for in loop.
+
+var obj={
+  "book":"wings of fire",
+  "author":"Dr.APJ.Abdulkalam",
+  "pages":"180",
+  "price":"194",
+  "publication":"1999",
+};
+for(var i in obj ){
+console.log(i,obj[i]);
+}
